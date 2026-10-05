@@ -6,7 +6,6 @@
   <title>MySQL 銷售資料庫監控與即時儀表板</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- DataTables CSS/JS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -20,40 +19,39 @@
 </head>
 <body class="bg-slate-50 text-slate-800 p-4 md:p-8">
   <div class="max-w-7xl mx-auto space-y-6">
-    <!-- Header -->
     <header class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-200 pb-4 gap-4">
       <div>
         <h1 class="text-3xl font-extrabold tracking-tight text-slate-900">MySQL 銷售資料庫即時監控儀表板</h1>
         <p class="text-sm text-slate-500 mt-1">
-          資料來源：MySQL 資料庫快照 (data.json) &bull; 查詢時間：<span id="loadTime" class="font-medium text-slate-700">載入中...</span>
+          資料來源：MySQL 資料庫快照 &bull; 查詢時間：<span id="loadTime" class="font-medium text-slate-700">載入中...</span>
         </p>
       </div>
       <div class="flex items-center gap-2">
         <span id="statusBadge" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-yellow-100 text-yellow-800">
-          <span class="w-2 h-2 mr-1.5 bg-yellow-500 rounded-full animate-ping"></span> 資料庫連線載入中...
+          <span class="w-2 h-2 mr-1.5 bg-yellow-500 rounded-full animate-ping"></span> 連線中...
         </span>
       </div>
     </header>
 
-    <!-- 驗收與指標卡片 -->
+    <!-- 指標卡片 -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總記錄數 (Records)</div>
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總記錄數</div>
         <div id="cardRecords" class="text-2xl font-bold mt-2 text-slate-900">--</div>
-        <div class="text-xs text-slate-400 mt-1">基準：300 筆 (更新後筆數不變)</div>
+        <div class="text-xs text-slate-400 mt-1">基準：300 筆</div>
       </div>
       <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總售出數量 (Quantity)</div>
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總售出數量 (含退貨)</div>
         <div id="cardQty" class="text-2xl font-bold mt-2 text-slate-900">--</div>
         <div class="text-xs text-slate-400 mt-1">原始 3,444 / 更新 4,524</div>
       </div>
       <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總退貨數量 (Returns)</div>
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">總退貨數量</div>
         <div id="cardReturns" class="text-2xl font-bold mt-2 text-rose-600">--</div>
         <div class="text-xs text-slate-400 mt-1">原始 33 / 更新 63</div>
       </div>
       <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">淨銷售總額 (Net Revenue)</div>
+        <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">淨銷售總額</div>
         <div id="cardNet" class="text-2xl font-bold mt-2 text-emerald-600">--</div>
         <div class="text-xs text-slate-400 mt-1">原始 3,217,100 / 更新 3,970,100</div>
       </div>
@@ -85,14 +83,9 @@
       </div>
     </div>
 
-    <!-- 資料庫資料表呈現區 -->
+    <!-- 資料庫資料表格 -->
     <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-4 border-b border-slate-100 gap-2 mb-4">
-        <div>
-          <h2 class="text-xl font-bold text-slate-900">資料庫詳細銷售紀錄 (即時查詢呈現)</h2>
-          <p class="text-xs text-slate-500 mt-0.5">提供分頁、即時關鍵字查詢、單筆明細檢索</p>
-        </div>
-      </div>
+      <h2 class="text-xl font-bold text-slate-900 mb-4">資料庫詳細銷售紀錄</h2>
       <div class="overflow-x-auto">
         <table id="salesTable" class="display w-full text-sm text-left">
           <thead>
@@ -101,15 +94,14 @@
               <th>日期</th>
               <th>商品名稱</th>
               <th>分類</th>
-              <th>銷售通路</th>
+              <th>通路</th>
               <th>單價</th>
               <th>售出數量</th>
               <th>退貨數</th>
               <th>淨銷售額</th>
             </tr>
           </thead>
-          <tbody>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
     </div>
@@ -121,19 +113,17 @@
 
     async function loadDataAndRender() {
       try {
-        // 核心關鍵：帶上 timestamp 破除瀏覽器快取，確保每次 F5 抓到的都是最新 data.json
+        // 帶上時間戳記強制繞過快取，每次 F5 都抓取最新 data.json
         const res = await fetch('./data.json?t=' + new Date().getTime());
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
 
         renderPage(data);
-
         document.getElementById('loadTime').innerText = new Date().toLocaleString();
         document.getElementById('statusBadge').innerHTML = '<span class="w-2 h-2 mr-1.5 bg-emerald-500 rounded-full animate-pulse"></span> 資料庫已即時同步';
         document.getElementById('statusBadge').className = 'inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800';
       } catch (err) {
-        console.error(err);
-        document.getElementById('statusBadge').innerHTML = '<span class="w-2 h-2 mr-1.5 bg-rose-500 rounded-full"></span> 讀取 data.json 失敗';
+        document.getElementById('statusBadge').innerHTML = '<span class="w-2 h-2 mr-1.5 bg-rose-500 rounded-full"></span> 讀取失敗';
         document.getElementById('statusBadge').className = 'inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-rose-100 text-rose-800';
       }
     }
@@ -159,85 +149,53 @@
         scatterData.push({ x: r.quantity, y: netRev });
       });
 
-      // 更新統計卡片
       document.getElementById('cardRecords').innerText = records.length + ' 筆';
       document.getElementById('cardQty').innerText = totalQty.toLocaleString() + ' 件';
       document.getElementById('cardReturns').innerText = totalReturns.toLocaleString() + ' 件';
       document.getElementById('cardNet').innerText = 'NT$ ' + totalNet.toLocaleString();
 
-      // 銷毀舊圖表重繪
       Object.values(chartInstances).forEach(c => c.destroy());
 
-      // 每日折線圖
       chartInstances.daily = new Chart(document.getElementById('dailyChart'), {
         type: 'line',
         data: {
           labels: Object.keys(dailyMap),
-          datasets: [{
-            label: '淨銷售額 (NT$)',
-            data: Object.values(dailyMap),
-            borderColor: '#2563eb',
-            backgroundColor: 'rgba(37, 99, 235, 0.08)',
-            borderWidth: 2,
-            fill: true,
-            tension: 0.25
-          }]
+          datasets: [{ label: '淨銷售額 (NT$)', data: Object.values(dailyMap), borderColor: '#2563eb', backgroundColor: 'rgba(37, 99, 235, 0.08)', borderWidth: 2, fill: true, tension: 0.25 }]
         },
         options: { responsive: true }
       });
 
-      // 商品長條圖 (由高到低排序)
       let sortedProds = Object.entries(prodMap).sort((a,b) => b[1] - a[1]);
       chartInstances.prod = new Chart(document.getElementById('productChart'), {
         type: 'bar',
         data: {
           labels: sortedProds.map(x => x[0]),
-          datasets: [{
-            label: '淨銷售額 (NT$)',
-            data: sortedProds.map(x => x[1]),
-            backgroundColor: '#3b82f6'
-          }]
+          datasets: [{ label: '淨銷售額 (NT$)', data: sortedProds.map(x => x[1]), backgroundColor: '#3b82f6' }]
         },
         options: { indexAxis: 'y', responsive: true }
       });
 
-      // 分類圓餅圖
       chartInstances.cat = new Chart(document.getElementById('categoryChart'), {
         type: 'pie',
         data: {
           labels: Object.keys(catMap),
-          datasets: [{
-            data: Object.values(catMap),
-            backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899']
-          }]
+          datasets: [{ data: Object.values(catMap), backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899'] }]
         },
         options: { responsive: true }
       });
 
-      // 通路長條圖
       chartInstances.channel = new Chart(document.getElementById('channelChart'), {
         type: 'bar',
         data: {
           labels: Object.keys(channelMap),
-          datasets: [{
-            label: '通路銷售額 (NT$)',
-            data: Object.values(channelMap),
-            backgroundColor: '#10b981'
-          }]
+          datasets: [{ label: '通路銷售額 (NT$)', data: Object.values(channelMap), backgroundColor: '#10b981' }]
         },
         options: { responsive: true }
       });
 
-      // 散佈圖
       chartInstances.scatter = new Chart(document.getElementById('scatterChart'), {
         type: 'scatter',
-        data: {
-          datasets: [{
-            label: '單筆交易 (售出量 vs 淨額)',
-            data: scatterData,
-            backgroundColor: 'rgba(239, 68, 68, 0.65)'
-          }]
-        },
+        data: { datasets: [{ label: '單筆交易 (售出量 vs 淨額)', data: scatterData, backgroundColor: 'rgba(239, 68, 68, 0.65)' }] },
         options: {
           responsive: true,
           scales: {
@@ -247,7 +205,6 @@
         }
       });
 
-      // 更新 DataTable
       if (dataTableInstance) {
         dataTableInstance.clear().rows.add(records).draw();
       } else {
@@ -274,13 +231,12 @@
             lengthMenu: "每頁顯示 _MENU_ 筆",
             info: "顯示第 _START_ 至 _END_ 筆，共 _TOTAL_ 筆",
             paginate: { previous: "上一頁", next: "下一頁" },
-            zeroRecords: "找不到符合條件的銷售紀錄"
+            zeroRecords: "找不到銷售紀錄"
           }
         });
       }
     }
 
-    // 頁面載入/按 F5 即刻觸發向 data.json 取得最新資料
     $(document).ready(function() {
       loadDataAndRender();
     });
