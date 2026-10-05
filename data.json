@@ -7,7 +7,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -18,7 +18,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 11,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -29,7 +29,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 22,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -41,7 +41,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 7,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 5,
@@ -73,7 +73,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -84,7 +84,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -95,7 +95,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 1
   },
   {
@@ -106,7 +106,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 22,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -117,7 +117,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -128,7 +128,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -139,7 +139,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 11,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -151,7 +151,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 14,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 15,
@@ -183,7 +183,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -194,7 +194,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 1
   },
   {
@@ -205,7 +205,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -216,7 +216,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -227,7 +227,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -238,7 +238,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -249,7 +249,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -261,7 +261,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 3,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 25,
@@ -293,7 +293,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 1
   },
   {
@@ -304,7 +304,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -315,7 +315,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -326,7 +326,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -337,7 +337,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -348,7 +348,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -359,7 +359,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -371,7 +371,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 10,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 35,
@@ -403,7 +403,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -414,7 +414,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -425,7 +425,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -436,7 +436,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -447,7 +447,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -458,7 +458,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -469,7 +469,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -481,7 +481,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 17,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 45,
@@ -513,7 +513,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -524,7 +524,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -535,7 +535,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -546,7 +546,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -557,7 +557,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -568,7 +568,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -579,7 +579,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -591,7 +591,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 6,
-    "returned_quantity": 2
+    "returned_quantity": 1
   },
   {
     "sale_id": 55,
@@ -623,7 +623,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -634,7 +634,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -645,7 +645,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -656,7 +656,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -667,7 +667,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -678,7 +678,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -689,7 +689,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 1
   },
   {
@@ -701,7 +701,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 13,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 65,
@@ -733,7 +733,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -744,7 +744,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -755,7 +755,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -766,7 +766,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -777,7 +777,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -788,7 +788,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 1
   },
   {
@@ -799,7 +799,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -811,7 +811,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 20,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 75,
@@ -843,7 +843,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -854,7 +854,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -865,7 +865,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -876,7 +876,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -887,7 +887,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 1
   },
   {
@@ -898,7 +898,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -909,7 +909,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -921,7 +921,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 9,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 85,
@@ -953,7 +953,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -964,7 +964,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -975,7 +975,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -986,7 +986,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 1
   },
   {
@@ -997,7 +997,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1008,7 +1008,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -1019,7 +1019,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -1031,7 +1031,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 16,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 95,
@@ -1063,7 +1063,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -1074,7 +1074,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -1085,7 +1085,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 1
   },
   {
@@ -1096,7 +1096,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -1107,7 +1107,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 16,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -1118,7 +1118,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1129,7 +1129,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -1141,7 +1141,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 5,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 105,
@@ -1173,7 +1173,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -1184,7 +1184,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 1
   },
   {
@@ -1195,7 +1195,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -1206,7 +1206,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -1217,7 +1217,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 23,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -1228,7 +1228,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 16,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -1239,7 +1239,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1251,7 +1251,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 12,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 115,
@@ -1283,7 +1283,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 12,
+    "quantity": 9,
     "returned_quantity": 1
   },
   {
@@ -1294,7 +1294,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -1305,7 +1305,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -1316,7 +1316,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -1327,7 +1327,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 12,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -1338,7 +1338,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 23,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -1349,7 +1349,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 16,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -1361,7 +1361,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 19,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 125,
@@ -1393,7 +1393,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 19,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -1404,7 +1404,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 12,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -1415,7 +1415,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -1426,7 +1426,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -1437,7 +1437,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 19,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -1448,7 +1448,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 12,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -1459,7 +1459,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 23,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -1471,7 +1471,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 8,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 135,
@@ -1503,7 +1503,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 8,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -1514,7 +1514,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 19,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -1525,7 +1525,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 12,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -1536,7 +1536,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -1547,7 +1547,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 26,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -1558,7 +1558,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 19,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -1569,7 +1569,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 12,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -1581,7 +1581,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 15,
-    "returned_quantity": 2
+    "returned_quantity": 1
   },
   {
     "sale_id": 145,
@@ -1613,7 +1613,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 15,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -1624,7 +1624,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 8,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -1635,7 +1635,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 19,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -1646,7 +1646,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 12,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -1657,7 +1657,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 15,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -1668,7 +1668,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 26,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -1679,7 +1679,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 19,
+    "quantity": 11,
     "returned_quantity": 1
   },
   {
@@ -1691,7 +1691,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 4,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 155,
@@ -1723,7 +1723,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 22,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1734,7 +1734,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 15,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -1745,7 +1745,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 8,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -1756,7 +1756,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 19,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -1767,7 +1767,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 22,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -1778,7 +1778,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 15,
+    "quantity": 7,
     "returned_quantity": 1
   },
   {
@@ -1789,7 +1789,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 26,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -1801,7 +1801,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 11,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 165,
@@ -1833,7 +1833,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -1844,7 +1844,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 22,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1855,7 +1855,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 15,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -1866,7 +1866,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 8,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -1877,7 +1877,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 11,
+    "quantity": 3,
     "returned_quantity": 1
   },
   {
@@ -1888,7 +1888,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 22,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -1899,7 +1899,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 15,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -1911,7 +1911,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 18,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 175,
@@ -1943,7 +1943,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -1954,7 +1954,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -1965,7 +1965,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 22,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -1976,7 +1976,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 15,
+    "quantity": 12,
     "returned_quantity": 1
   },
   {
@@ -1987,7 +1987,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -1998,7 +1998,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 11,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -2009,7 +2009,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 22,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -2021,7 +2021,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 7,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 185,
@@ -2053,7 +2053,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -2064,7 +2064,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -2075,7 +2075,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 1
   },
   {
@@ -2086,7 +2086,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 22,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -2097,7 +2097,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -2108,7 +2108,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -2119,7 +2119,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 11,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -2131,7 +2131,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 14,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 195,
@@ -2163,7 +2163,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -2174,7 +2174,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 1
   },
   {
@@ -2185,7 +2185,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -2196,7 +2196,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 11,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -2207,7 +2207,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -2218,7 +2218,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -2229,7 +2229,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 18,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -2241,7 +2241,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 3,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 205,
@@ -2273,7 +2273,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 1
   },
   {
@@ -2284,7 +2284,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -2295,7 +2295,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -2306,7 +2306,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 18,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -2317,7 +2317,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -2328,7 +2328,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -2339,7 +2339,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 25,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -2351,7 +2351,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 10,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 215,
@@ -2383,7 +2383,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -2394,7 +2394,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -2405,7 +2405,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -2416,7 +2416,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 7,
+    "quantity": 4,
     "returned_quantity": 0
   },
   {
@@ -2427,7 +2427,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -2438,7 +2438,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -2449,7 +2449,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 14,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -2461,7 +2461,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 17,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 225,
@@ -2493,7 +2493,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -2504,7 +2504,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -2515,7 +2515,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -2526,7 +2526,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 14,
+    "quantity": 11,
     "returned_quantity": 0
   },
   {
@@ -2537,7 +2537,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -2548,7 +2548,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -2559,7 +2559,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 21,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -2571,7 +2571,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 6,
-    "returned_quantity": 2
+    "returned_quantity": 1
   },
   {
     "sale_id": 235,
@@ -2603,7 +2603,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -2614,7 +2614,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -2625,7 +2625,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -2636,7 +2636,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 21,
+    "quantity": 18,
     "returned_quantity": 0
   },
   {
@@ -2647,7 +2647,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -2658,7 +2658,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -2669,7 +2669,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 28,
+    "quantity": 20,
     "returned_quantity": 1
   },
   {
@@ -2681,7 +2681,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 13,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 245,
@@ -2713,7 +2713,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -2724,7 +2724,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -2735,7 +2735,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -2746,7 +2746,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 10,
+    "quantity": 7,
     "returned_quantity": 0
   },
   {
@@ -2757,7 +2757,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -2768,7 +2768,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 1
   },
   {
@@ -2779,7 +2779,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 17,
+    "quantity": 9,
     "returned_quantity": 0
   },
   {
@@ -2791,7 +2791,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 20,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 255,
@@ -2823,7 +2823,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -2834,7 +2834,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -2845,7 +2845,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 0
   },
   {
@@ -2856,7 +2856,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 17,
+    "quantity": 14,
     "returned_quantity": 0
   },
   {
@@ -2867,7 +2867,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 1
   },
   {
@@ -2878,7 +2878,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -2889,7 +2889,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 24,
+    "quantity": 16,
     "returned_quantity": 0
   },
   {
@@ -2901,7 +2901,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 9,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 265,
@@ -2933,7 +2933,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -2944,7 +2944,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -2955,7 +2955,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -2966,7 +2966,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 6,
+    "quantity": 3,
     "returned_quantity": 1
   },
   {
@@ -2977,7 +2977,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 500,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -2988,7 +2988,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 1200,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -2999,7 +2999,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 650,
-    "quantity": 13,
+    "quantity": 5,
     "returned_quantity": 0
   },
   {
@@ -3011,7 +3011,7 @@
     "channel": "實體門市",
     "unit_price": 1800,
     "quantity": 16,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 275,
@@ -3043,7 +3043,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 900,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -3054,7 +3054,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 300,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -3065,7 +3065,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 700,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 1
   },
   {
@@ -3076,7 +3076,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 800,
-    "quantity": 13,
+    "quantity": 10,
     "returned_quantity": 0
   },
   {
@@ -3087,7 +3087,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 500,
-    "quantity": 16,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -3098,7 +3098,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 1200,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -3109,7 +3109,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 650,
-    "quantity": 20,
+    "quantity": 12,
     "returned_quantity": 0
   },
   {
@@ -3121,7 +3121,7 @@
     "channel": "校園團購",
     "unit_price": 1800,
     "quantity": 5,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 285,
@@ -3153,7 +3153,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 900,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -3164,7 +3164,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 300,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 1
   },
   {
@@ -3175,7 +3175,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 700,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   },
   {
@@ -3186,7 +3186,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 800,
-    "quantity": 20,
+    "quantity": 17,
     "returned_quantity": 0
   },
   {
@@ -3197,7 +3197,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 500,
-    "quantity": 23,
+    "quantity": 15,
     "returned_quantity": 0
   },
   {
@@ -3208,7 +3208,7 @@
     "category": "電腦周邊",
     "channel": "實體門市",
     "unit_price": 1200,
-    "quantity": 16,
+    "quantity": 8,
     "returned_quantity": 0
   },
   {
@@ -3219,7 +3219,7 @@
     "category": "電腦周邊",
     "channel": "校園團購",
     "unit_price": 650,
-    "quantity": 27,
+    "quantity": 19,
     "returned_quantity": 0
   },
   {
@@ -3231,7 +3231,7 @@
     "channel": "網路商店",
     "unit_price": 1800,
     "quantity": 12,
-    "returned_quantity": 1
+    "returned_quantity": 0
   },
   {
     "sale_id": 295,
@@ -3263,7 +3263,7 @@
     "category": "行動配件",
     "channel": "網路商店",
     "unit_price": 900,
-    "quantity": 12,
+    "quantity": 9,
     "returned_quantity": 1
   },
   {
@@ -3274,7 +3274,7 @@
     "category": "行動配件",
     "channel": "實體門市",
     "unit_price": 300,
-    "quantity": 23,
+    "quantity": 20,
     "returned_quantity": 0
   },
   {
@@ -3285,7 +3285,7 @@
     "category": "行動配件",
     "channel": "校園團購",
     "unit_price": 700,
-    "quantity": 16,
+    "quantity": 13,
     "returned_quantity": 0
   },
   {
@@ -3296,7 +3296,7 @@
     "category": "電腦周邊",
     "channel": "網路商店",
     "unit_price": 800,
-    "quantity": 9,
+    "quantity": 6,
     "returned_quantity": 0
   }
 ]
